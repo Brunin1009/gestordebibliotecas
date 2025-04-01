@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnMostrarInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Información de Libros" />
+
+    <Button
+        android:id="@+id/btnCalcularPrecios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Precios" />
+
+    <Button
+        android:id="@+id/btnAplicarDescuento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplicar Descuento a García Márquez" />
+
+    <Button
+        android:id="@+id/btnBuscarLibros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Libros"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnOrdenarPorPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ordenar por Precio"
+        android:layout_marginTop="8dp"/>
+    <Button
+        android:id="@+id/btnGenerarResumen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generar Resumen"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/etBusqueda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Buscar por título o autor"
+        android:layout_marginTop="8dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tvResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gestión de Libros</string>
+
+    <string-array name="tipos_libros">
+        <item>Seleccione tipo de libro</item>
+        <item>Libro Nuevo</item>
+        <item>Libro Usado</item>
+        <item>Libro Digital</item>
+        <item>Libro Digital Pirata</item>
+    </string-array>
+</resources>
